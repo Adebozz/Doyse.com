@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* header section */
+header{
+        width: 100%;
+        position: absolute;
+       
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 5, 48, 0.705);
+}
+.logo{
+    margin: 2%;
+}
+.head .logo a{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.head .logo a h4{
+    display: flex;
+    align-self: center;
+}
+
+.head .logo a img{
+    width: 60px;
+    height: 60px;
+}
+
+.head .navbar ul{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.head .navbar ul li{
+list-style-type: none;
+padding: 10px;
+font-size: small;
+
+}
+.head .navbar ul li a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-bar,
+.head label{
+    display: none;
+}
+
+/* home section */
+#homepage{
+    width: 100%;
+    height: 100vh;
+}
+.home{
+    background-image: url(pic.jpg);
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.home .cont{
+    background-color: rgba(0, 5, 48, 0.705);
+    width: 800px;
+    height: 300px;
+    color: #fff;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid white;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 20px;
+}
+.home .cont h1,
+q{
+    padding: 3%;
+}
+
+/* About section */
+
+.about {
+    padding: 5% 2% 0% 2% ;
+   margin: 0% 10%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+   
+}
+.about  h2{
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 2px solid rgba(0, 5, 48, 0.705);
+    padding: 3px;
+}
+.contenti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.cont1, .cont2{
+    width: 47%;
+    height: 550px;
+}
+
+
+img{
+    padding-top: 10px;
+    width: 100%;
+    height: 300px;
+    
+}
+/* whY pick us section */
+.one{
+    background-color: rgba(255, 255, 255, 0);
+}
+.why{
+    width: 100%;
+    height: 250px;
+    background-image: url(pic2.jpg);
+    background-size: 100% 100%;
+}
+.why .w{
+    width: 100%;
+    height: 250px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    background-color: rgba(2, 2, 44, 0.555);
+    /* animation: mov1 5s forwards; */
+    
+}
+/* country section */
+.country{
+    width:100%;
+    height: 100%;
+}
+.country h2{
+    padding-top: 5%;
+}
+.country .cov{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.country .cov img{
+    width: 20%;
+    height: 70%;
+    
+}
+.country h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+    margin-left: -5%;
+    text-decoration: underline;
+    
+
+}
+
+
+/* footer section */
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 5, 48);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+footer .logo a h4{
+    display: flex;
+    align-self: center;
+
+}
+ .logo img{
+    width: 60px;
+    height: 60px;
+}
+footer .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5%;
+    display: flex;
+   flex-direction: row;
+}
+.contain-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#footer-menu{
+    margin: 0% 8%;
+    padding-bottom: 2%;
+    font-size: medium;
+    padding-top: 0%;
+}
+#footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+#footer-menu ul li{
+    
+   font-size: small;
+
+}
+.click{
+    margin-left: -10px;
+}
+footer button{
+    color: #fff;
+    background-color: aqua;
+    padding: 2px;
+}
+
+/* WHERE TO STUDY PAGE */
+.hold{
+    width: 100%;
+    height: 40vh;
+    background-image: url(where.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 2;
+
+}
+.hold-cover{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 5, 48, 0.705);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hold-cover h2{
+    color: white;
+    font-size: 40px;
+}
+.where-study .cover{
+    width: 100%;
+    padding: 10%;
+    height: 60vh;
+    font-size: 20px;
+}
+
+.where-study .Countries{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.where-study .Countries .COUNT{
+    width: 40%;
+    height: 50vh;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.where-study h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Countries .uk{
+    background-image: url(LONDON.jpg);
+    background-size: 100% 100%;
+}
+.Countries .america{
+    background-image: url(USA.jpg);
+    background-size: 100% 100%;
+}
+.Countries .canada{
+    background-image: url(canda.jpg);
+    background-size: 100% 100%;
+}
+.Countries .germany{
+    background-image: url(germany.jpg);
+    background-size: 100% 100%;
+}
+.COUNT .contain{
+    opacity: 0;
+    background-color: rgba(0, 5, 48, 0.705);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10%;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+
+.COUNT .contain:hover{
+    opacity: 1;
+}
+
+/* why page */
+.wh .hold{
+    background-image: url(scoo.jpg);
+}
+.wh .cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 5, 48, 0.705);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.wh .cover h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.wh .contain{
+    width: 100%;
+    height: 60vh;
+    padding: 10%;
+    font-size: x-large;
+}
+
+.in .cover{
+   background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.in .cover h2{
+    color: white;
+} 
+.in{
+    width: 100%;
+    height: 30vh;
+    background-image: url(scoo.jpg);
+    background-size: 100%;
+    align-items: center;
+}
+.contactc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contactc h2{
+    display: flex;
+    text-decoration: underline;
+}
+.contactc .contact{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactc .contact .ini{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactc .fa{
+    color: rgba(0, 5, 48);
+    font-size: 80px;
+    align-self: center;
+}
+
+.foot{
+    height: 5vh;
+}
+
+
+
+
+
+
+@media (max-width: 550px) {
+    /* header section*/
+
+.logo  a{
+   font-size: 15px;
+   color: #fff;
+}
+
+.head label{
+   display: initial;
+   margin-top: 5%;
+   margin-right: 10%;
+
+}
+
+.head .navbar{
+   position: absolute;
+   top:100%; left: 0; right: 0;
+   background-color: rgba(3, 3, 43, 0.71);
+   color: white;
+   border-top: 1px solid rgba(0,0,0,.1);
+   display: none;  
+}
+.head .navbar ul li{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-left: -5%;
+   
+}
+#menu-bar:checked ~ .navbar{
+   display: initial;
+}
+
+/* body */
+
+/* homepage */
+
+.home .cont{
+    width: 50px;
+}
+
+
+   .contenti{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       padding-bottom: 0%;
+   
+   }
+   .cont2{
+       align-items: center;
+       padding-bottom: 0%;
+   }
+   #footer-menu{
+   
+    font-size: x-small;
+}
+.contain-footer{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+   
+  
+}
+@media (max-width: 750px){
+
+    .home .cont{
+        width: 300px;
+    }
+    .head label{
+        display: initial;
+        margin-top: 4%;
+        margin-right: 10%;
+        color: #fff;
+        padding-bottom: 2%;
+     
+     }
+     
+     .head .navbar{
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        background-color: rgba(3, 3, 43, 0.71);
+        color: white;
+        border-top: 1px solid rgba(0,0,0,.1);
+        display: none;  
+     }
+     .head .navbar ul li{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: -5%;
+        
+     }
+     #menu-bar:checked ~ .navbar{
+        display: initial;
+     }
+     .contain-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contain-footer{
+        flex-wrap: wrap;
+       }
+       .COUNT .contain{
+        font-size: small;
+    }
+}
+@media (max-width: 991px) {
+
+    .head .logo a{
+        
+        font-size: 15px;
+
+        
+    }
+    .home .cont{
+        width: 500px;
+    }
+
+
+   .contenti{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   
+   }
+   
+   .cont1, .cont2{
+       width: 90%;
+       height: 550px;
+   }
+   .cont1{
+       height: 325px;
+       padding-left: 10%;
+   }
+   img{
+       width: 80%;
+       height: 250px;
+   }
+ 
+}
