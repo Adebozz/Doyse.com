@@ -68,7 +68,7 @@ font-size: small;
     height: 100vh;
 }
 .home{
-    background-image: url(pic.jpg);
+    background-image: url(/images/pic.jpg);
     background-size: 100% 100%;
     align-items: center;
     justify-content: center;
@@ -140,7 +140,7 @@ img{
 .why{
     width: 100%;
     height: 250px;
-    background-image: url(pic2.jpg);
+    background-image: url(/images/pic2.jpg);
     background-size: 100% 100%;
 }
 .why .w{
@@ -259,7 +259,7 @@ footer button{
 .hold{
     width: 100%;
     height: 40vh;
-    background-image: url(where.jpg);
+    background-image: url(/images/where.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 2;
@@ -306,19 +306,19 @@ footer button{
 }
 
 .Countries .uk{
-    background-image: url(LONDON.jpg);
+    background-image: url(/images/LONDON.jpg);
     background-size: 100% 100%;
 }
 .Countries .america{
-    background-image: url(USA.jpg);
+    background-image: url(/images/USA.jpg);
     background-size: 100% 100%;
 }
 .Countries .canada{
-    background-image: url(canda.jpg);
+    background-image: url(/images/canda.jpg);
     background-size: 100% 100%;
 }
 .Countries .germany{
-    background-image: url(germany.jpg);
+    background-image: url(/images/germany.jpg);
     background-size: 100% 100%;
 }
 .COUNT .contain{
@@ -338,7 +338,7 @@ footer button{
 
 /* why page */
 .wh .hold{
-    background-image: url(scoo.jpg);
+    background-image: url(/images/scoo.jpg);
 }
 .wh .cover{
     width: 100%;
@@ -379,7 +379,7 @@ footer button{
 .in{
     width: 100%;
     height: 30vh;
-    background-image: url(scoo.jpg);
+    background-image: url(/images/scoo.jpg);
     background-size: 100%;
     align-items: center;
 }
